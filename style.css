@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.left_panel{
+    background-color: rgb(240, 240, 240);
+    max-width: 230px;
+    height: 100vh;
+    box-shadow:  1.5px 2.5px 3px ;
+}
+.tag{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    gap:20px;
+    align-items: center;
+}
+.icon1{
+    height: 80px;
+    width:80px;
+}
+
+.title1{
+    font-weight: 900;
+    font-size: 23px;
+}
+.but1{
+    
+    margin-left: 20px;
+    font-weight: 700;
+    
+    padding:12px 100px;
+    padding-left: 5px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: rgb(240, 240, 240);
+    
+}
+.but1:hover{
+    transition: 0.3s ease-out;
+    background-color: black;
+    color: white;
+    
+}
+.con1{
+    margin-left: 6px;
+    
+}
+.container{
+    display: flex;
+}
+.top_bar{
+    margin-top: 10px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    gap:100px;
+}
+.icon2{
+    border-style: none;
+    background-color: rgb(241, 238, 238);
+    padding:10px 13px;
+    border-radius: 10px;
+   
+}
+.icon2:hover{
+    transition: 0.5s ease-out;
+    background-color:  rgb(253, 213, 213);
+}
+.search input{
+    width: 250px;
+    padding:5px 15px;
+    border-radius: 8px;
+    border-color: skyblue;
+}
+.admin{
+    padding:10px 20px;
+    border-radius: 8px;
+    border-style: none;
+}
+.admin:hover{
+    transition: 0.5s ease-out;
+    background-color:  rgb(253, 213, 213);
+}
+.card {
+    width: 200px;
+    height: 150px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .overview{
+    margin-top: 40px;
+    margin-left: 50px;
+    font-weight: 850;
+    font-size: larger;
+  }
+  .card_section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
