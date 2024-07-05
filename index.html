@@ -1,95 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/86553ce4a7.js" crossorigin="anonymous"></script>
-</head>
-<body>
-<div class="container">
-    <div class="left_panel">
-        <div class="tag">
-           <div class="icon">
-            <img class="icon1" src="images/hostel_icon.jpg">
-           </div>
-           <div class="name">
-            <p class="title1">Caliberato</p>
-           </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign in & Sign up Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="#" class="sign-in-form">
+            <h2 class="title">Sign in</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <input type="submit" value="Login" class="btn solid" />
+            <p class="social-text">Or Sign in with social platforms</p>
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </form>
+          <form action="#" class="sign-up-form">
+            <h2 class="title">Sign up</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <input type="submit" class="btn" value="Sign up" />
+            <p class="social-text">Or Sign up with social platforms</p>
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </form>
         </div>
-        <div class="buttons">
+      </div>
 
-        
-        <button class="but1">
-            <span class="fon1"><i class="fa-solid fa-gauge"></i></span>
-            <span class="con1">Dashboard</span>
-        </button>
-        <button class="but1">
-            <span class="fon1"><i class="fa-solid fa-message"></i></span>
-            <span class="con1">Notifications</span>
-        </button>
-
-        <button class="but1">
-            <span class="fon1"><i class="fa-solid fa-gear"></i></span>
-            <span class="con1">Settings</span>
-        </button>
-    </div>
-    </div>
-    <div class="right_panel">
-        <div class="top_bar">
-            <div class="stu_dashboard">
-                <p>Student Dashboard</p>
-            </div>
-            <div class="search">
-                <form action="">
-                    <input type="text" placeholder="Search.." name="search" >
-                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </form>
-            </div>
-            <button class="icon2">
-                <i class="fa-regular fa-bell"></i>
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>New here ?</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
+              ex ratione. Aliquid!
+            </p>
+            <button class="btn transparent" id="sign-up-btn">
+              Sign up
             </button>
-
-            <button class="admin">
-                <i class="fa-solid fa-user-tie"></i>
-                <span>Admin</span>
+          </div>
+          <img src="img/log.svg" class="image" alt="" />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>One of us ?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+              laboriosam ad deleniti.
+            </p>
+            <button class="btn transparent" id="sign-in-btn">
+              Sign in
             </button>
+          </div>
+          <img src="img/register.svg" class="image" alt="" />
         </div>
-
-        <div class="bottom">
-            <p class="overview">Hostels</p>
-            <div class="card_section">
-                <div class="card" onclick="window.location.href='https://example.com/page1'">
-                    <h2>Hostel No.3</h2>
-                    <p>This is the content of card 1. Click to learn more.</p>
-                </div>
-                <div class="card" onclick="window.location.href='https://example.com/page1'">
-                    <h2>Hostel No.4</h2>
-                    <p>This is the content of card 2. Click to learn more.</p>
-                </div>
-                <div class="card" onclick="window.location.href='https://example.com/page1'">
-                    <h2>Hostel No.6</h2>
-                    <p>This is the content of card 3. Click to learn more.</p>
-                </div>
-                <div class="card" onclick="window.location.href='https://example.com/page1'">
-                    <h2>Hostel No.10</h2>
-                    <p>This is the content of card 3. Click to learn more.</p>
-                </div>
-                <div class="card" onclick="window.location.href='https://example.com/page1'">
-                    <h2>Kaveri Bhawan</h2>
-                    <p>This is the content of card 3. Click to learn more.</p>
-                </div>
-                <div class="card" onclick="window.location.href='https://example.com/page1'">
-                    <h2>Kalpana Chawala</h2>
-                    <p>This is the content of card 3. Click to learn more.</p>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-</div>
-</body>
+
+    <script src="app.js"></script>
+  </body>
 </html>
-<!-- HTML !-->
-<button class="button-1" role="button">Button 1</button>
-
